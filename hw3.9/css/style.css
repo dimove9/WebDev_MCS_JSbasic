@@ -1,0 +1,24 @@
+@import url(reset.css);
+
+@keyframes borderline {
+  from {
+  	border: 2px solid red;
+  }
+  to {
+  	border: 2px solid blue;
+  }
+}
+
+
+.imageBlock img {
+  width: 200px;
+
+}
+
+.shortBio {
+  padding: 10px;
+}
+
+.animated {
+  animation: borderline 1s linear infinite alternate;
+}
